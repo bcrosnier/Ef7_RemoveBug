@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0-*",
+    "description": "Ef7Test Console Application",
+    "authors": [ "Benjamin" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "EntityFramework.SqlServer": "7.0.0-beta6",
+        "EntityFramework.Commands": "7.0.0-beta6"
+    },
+
+    "commands": {
+        "Ef7Test": "Ef7Test",
+        "ef": "EntityFramework.Commands"
+    },
+
+    "frameworks": {
+        "dnx451": { }
+    }
+}
